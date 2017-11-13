@@ -1,5 +1,15 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center">
+To succesfully import a Laravel project from github you most to:
 
+Clone the project
+composer intall
+create a mysql connection
+create db application
+set in .env file database configurations
+php artisan key:generate
+php artisan serve
+</p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
